@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visor Cartográfico</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        #container {
+            display: flex;
+            flex: 1;
+        }
+
+        #map {
+            flex: 1;
+            background-color: #eaeaea;
+            position: relative;
+        }
+
+        #sidebar {
+            width: 300px;
+            background-color: #f7f7f7;
+            border-left: 1px solid #ccc;
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        #legend {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #fff;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        #legend h2 {
+            margin-top: 0;
+            font-size: 1.2em;
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+
+        #legend ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        #legend ul li {
+            margin: 5px 0;
+            display: flex;
+            align-items: center;
+        }
+
+        #legend ul li span {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+            border-radius: 4px;
+        }
+
+        #description {
+            padding: 15px;
+            background-color: #fff;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+        }
+
+        #description h2 {
+            margin-top: 0;
+            font-size: 1.2em;
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Wildfire Burn Severity Estimation in Tenerife</h1>
+    </header>
+    <div id="container">
+        <div id="map">
+            <iframe src="visor.html" style="width: 100%; height: 100%; border: none;"></iframe>
+        </div>        
+        <div id="sidebar">
+            <div id="legend">
+                <h2>Legend</h2>
+                <ul>
+                    <li><span style="background-color: #2b83ba;"></span>Low severity</li>
+                    <li><span style="background-color: #abdd57;"></span>Moderate severity</li>
+                    <li><span style="background-color: #ffff32;"></span>Medium severity</li>
+                    <li><span style="background-color: #fdae00;"></span>High severity</li>
+                    <li><span style="background-color: #d7191c;"></span>Extreme severity</li>
+                </ul>
+            </div>
+            <div id="description">
+                <h2>Summary</h2>
+                <p>This layer represents an approximation of the burn severity of the wildfire that occurred in Tenerife, Canary Islands, on August 15, 2023. Using NBR ratio and the K-means algorithm to extract the burned-unburned mask and classifying the result by quantiles from Low severity to High severity.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

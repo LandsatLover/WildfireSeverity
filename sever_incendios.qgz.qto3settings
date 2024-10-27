@@ -1,0 +1,446 @@
+{
+  "KEYFRAMES": {
+    "camera": {
+      "groups": [
+        {
+          "enabled": true,
+          "keyframes": [
+            {
+              "camera": {
+                "fx": -1834542.7125847996,
+                "fy": 3296124.0833502985,
+                "fz": 0.0,
+                "x": -1825211.7772202655,
+                "y": 3310201.0484345043,
+                "z": 8777.282847552797
+              },
+              "delay": 0,
+              "duration": 2000,
+              "easing": 1,
+              "name": "keyframe 1",
+              "type": 128
+            },
+            {
+              "camera": {
+                "fx": -1834542.7125847996,
+                "fy": 3296124.0833502985,
+                "fz": 0.0,
+                "x": -1830435.8722990623,
+                "y": 3315445.247813399,
+                "z": 10131.459887624762
+              },
+              "delay": 0,
+              "duration": 2000,
+              "easing": 1,
+              "name": "keyframe 2",
+              "type": 128
+            },
+            {
+              "camera": {
+                "fx": -1834542.7125847996,
+                "fy": 3296124.0833502985,
+                "fz": 0.0,
+                "x": -1842103.608580114,
+                "y": 3312395.475609924,
+                "z": 13072.668376374835
+              },
+              "delay": 0,
+              "duration": 2000,
+              "easing": 1,
+              "name": "keyframe 3",
+              "type": 128
+            },
+            {
+              "camera": {
+                "fx": -1837231.235142239,
+                "fy": 3293593.5979688996,
+                "fz": -8.551039769052624e-14,
+                "x": -1852742.7211999402,
+                "y": 3302885.518233043,
+                "z": 12879.209249162903
+              },
+              "delay": 0,
+              "duration": 2000,
+              "easing": 1,
+              "name": "keyframe 4",
+              "type": 128
+            },
+            {
+              "camera": {
+                "fx": -1837231.235142239,
+                "fy": 3293593.5979688996,
+                "fz": -8.551039769052624e-14,
+                "x": -1855664.6170447916,
+                "y": 3287494.5941712596,
+                "z": 10762.555324277933
+              },
+              "delay": 0,
+              "duration": 2000,
+              "easing": 1,
+              "name": "keyframe 5",
+              "type": 128
+            },
+            {
+              "camera": {
+                "fx": -1837231.235142239,
+                "fy": 3293593.5979688996,
+                "fz": -8.551039769052624e-14,
+                "x": -1843714.6031970242,
+                "y": 3275478.5903435573,
+                "z": 11073.953684076434
+              },
+              "delay": 0,
+              "duration": 2000,
+              "easing": 1,
+              "name": "keyframe 6",
+              "type": 128
+            },
+            {
+              "camera": {
+                "fx": -1837231.235142239,
+                "fy": 3293593.5979688996,
+                "fz": -8.551039769052624e-14,
+                "x": -1832135.4784913275,
+                "y": 3275822.5826222156,
+                "z": 12290.007750187306
+              },
+              "delay": 0,
+              "duration": 2000,
+              "easing": 1,
+              "name": "keyframe 7",
+              "type": 128
+            },
+            {
+              "camera": {
+                "fx": -1832099.2700615702,
+                "fy": 3296111.6935188794,
+                "fz": 3.3157092982021545e-14,
+                "x": -1827003.5134106588,
+                "y": 3278340.6781721953,
+                "z": 12290.007750187124
+              },
+              "delay": 0,
+              "duration": 2000,
+              "easing": 1,
+              "name": "keyframe 8",
+              "type": 128
+            },
+            {
+              "camera": {
+                "fx": -1829456.8684700422,
+                "fy": 3298833.5002341056,
+                "fz": 1.2826559653575066e-13,
+                "x": -1818432.68814353,
+                "y": 3283830.119503422,
+                "z": 12090.741398925318
+              },
+              "delay": 0,
+              "duration": 2000,
+              "easing": 1,
+              "name": "keyframe 9",
+              "type": 128
+            },
+            {
+              "camera": {
+                "fx": -1829456.8684700422,
+                "fy": 3298833.5002341056,
+                "fz": 1.2826559653575066e-13,
+                "x": -1810663.9821928735,
+                "y": 3302670.095437183,
+                "z": 11177.118386152875
+              },
+              "delay": 0,
+              "duration": 2000,
+              "easing": 1,
+              "name": "keyframe 10",
+              "type": 128
+            }
+          ],
+          "name": "Group",
+          "type": 64
+        }
+      ]
+    },
+    "enabled": true,
+    "layers": {
+      "MDT_25M_TENERIFE_e083dde2_6fa0_4c40_8d01_af79e5df1d89": {
+        "enabled": true,
+        "groups": []
+      },
+      "fp:5c1bd947": {
+        "enabled": true,
+        "groups": [
+          {
+            "enabled": true,
+            "keyframes": [
+              {
+                "delay": 0,
+                "duration": 2000,
+                "easing": 1,
+                "name": "opacity '0.5'",
+                "opacity": 0.5,
+                "type": 129
+              }
+            ],
+            "layerId": 3,
+            "name": "Opacity group",
+            "type": 65
+          }
+        ]
+      },
+      "limite_incendio_ddd3e95c_2225_4cf7_933a_24fe1e886b8c": {
+        "enabled": true,
+        "groups": []
+      },
+      "severidad_incendio_4c608aa2_10d8_4f22_ae53_ca3b036db09d": {
+        "enabled": true,
+        "groups": []
+      }
+    },
+    "repeat": false,
+    "startOnLoad": true
+  },
+  "LAYERS": [
+    {
+      "geomType": 3,
+      "layerId": "limite_incendio_ddd3e95c_2225_4cf7_933a_24fe1e886b8c",
+      "name": "limite_incendio",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": true,
+        "checkBox_ExportAttrs": false,
+        "checkBox_Label": false,
+        "checkBox_Outline": true,
+        "checkBox_Underline": false,
+        "checkBox_Visible": true,
+        "colorButton_BgColor": [
+          255,
+          255,
+          255,
+          176
+        ],
+        "colorButton_ConnColor": [
+          192,
+          192,
+          208,
+          255
+        ],
+        "colorButton_Label": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_OtlColor": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "comboBox_FontFamily": "sans-serif",
+        "comboBox_ObjectType": "Polygon",
+        "comboBox_altitudeMode": null,
+        "comboEdit_Color": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 2
+        },
+        "comboEdit_Color2": {
+          "comboData": null,
+          "comboText": "None",
+          "editText": "",
+          "type": 7
+        },
+        "comboEdit_FilePath": {},
+        "comboEdit_Opacity": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 5
+        },
+        "comboEdit_altitude2": {},
+        "expression_Label": "\"isla\"",
+        "fieldExpressionWidget_altitude": "0",
+        "geomWidget0": {},
+        "geomWidget1": {},
+        "geomWidget2": {},
+        "geomWidget3": {},
+        "geomWidget4": {},
+        "groupBox_Background": true,
+        "groupBox_Conn": true,
+        "labelHeightWidget": {
+          "comboData": 1,
+          "comboText": "Relative",
+          "editText": "50",
+          "type": 6
+        },
+        "lineEdit_Name": "",
+        "mtlWidget0": {},
+        "mtlWidget1": {},
+        "radioButton_IntersectingFeatures": true,
+        "radioButton_zValue": true,
+        "slider_FontSize": 3
+      },
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "severidad_incendio_4c608aa2_10d8_4f22_ae53_ca3b036db09d",
+      "name": "severidad_incendio",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "comboBox_ClipLayer": "limite_incendio_ddd3e95c_2225_4cf7_933a_24fe1e886b8c",
+        "horizontalSlider_DEMSize": 1,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "2d44a3e9",
+            "name": "map (canvas)",
+            "properties": {
+              "checkBox_Shading": true,
+              "checkBox_TransparentBackground": false,
+              "comboBox_TextureSize": "1024",
+              "radioButton_PNG": true,
+              "spinBox_Opacity": 100
+            },
+            "type": 0
+          }
+        ],
+        "mtlId": "2d44a3e9",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3
+      },
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "MDT_25M_TENERIFE_e083dde2_6fa0_4c40_8d01_af79e5df1d89",
+      "name": "MDT_25M_TENERIFE",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "comboBox_ClipLayer": "limite_incendio_ddd3e95c_2225_4cf7_933a_24fe1e886b8c",
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "af82af95",
+            "name": "map (canvas)",
+            "properties": {},
+            "type": 0
+          }
+        ],
+        "mtlId": "af82af95",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3
+      },
+      "visible": true
+    },
+    {
+      "geomType": 0,
+      "layerId": "fp:5c1bd947",
+      "name": "Flat Plane",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "lineEdit_Altitude": "0",
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "78274be2",
+            "name": "map (canvas)",
+            "properties": {},
+            "type": 0
+          }
+        ],
+        "mtlId": "78274be2",
+        "spinBox_Size": 3
+      },
+      "visible": false
+    }
+  ],
+  "OPT": {},
+  "OutputFilename": "C:/Users/Ruben/Desktop/severidad_incendios\\visor.html",
+  "Template": "3DViewer.html",
+  "Title": "sever_incendios",
+  "Version": 20703,
+  "WIDGETS": {
+    "NorthArrow": {
+      "color": "0xff0199",
+      "visible": true
+    }
+  }
+}
